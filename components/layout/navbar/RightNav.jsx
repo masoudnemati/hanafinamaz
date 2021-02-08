@@ -36,7 +36,7 @@ const RightNav = ({ open }) => {
             list-style: none;
             display: flex;
             flex-flow: row-reverse nowrap;
-            margin-top: 25px;
+            margin-top: 15px;
           }
 
           li {

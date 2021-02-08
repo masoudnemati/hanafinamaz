@@ -11,6 +11,7 @@ export default function Home() {
       <main>آموزش نماز اهل سنت (حنفی)</main>
       <style jsx>{`
         main {
+          height: 5000px;
           direction: rtl;
           padding-top: 200px;
           margin: 0;
