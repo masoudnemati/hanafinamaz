@@ -4,31 +4,31 @@ const RightNav = ({ open }) => {
   return (
     <div>
       <ul className="nav-ul" open={open}>
-        <li className="home-li">
-          <Link href="/">
+        <Link href="/">
+          <li className="home-li">
             <a>صفحه اصلی</a>
-          </Link>
-        </li>
-        <li className="songs-li">
-          <Link href="/songs">
+          </li>
+        </Link>
+        <Link href="/songs">
+          <li className="songs-li">
             <a>احکام نماز</a>
-          </Link>
-        </li>
-        <li className="video-li">
-          <Link href="/videos">
+          </li>
+        </Link>
+        <Link href="/videos">
+          <li className="video-li">
             <a>وضو و غسل</a>
-          </Link>
-        </li>
-        <li className="about-us-li">
-          <Link href="/about-us">
+          </li>
+        </Link>
+        <Link href="/about-us">
+          <li className="about-us-li">
             <a>نمازهای پنج‌گانه</a>
-          </Link>
-        </li>
-        <li className="contact-us-li">
-          <Link href="/contact-us">
+          </li>
+        </Link>
+        <Link href="/contact-us">
+          <li className="contact-us-li">
             <a>دیگر نمازها</a>
-          </Link>
-        </li>
+          </li>
+        </Link>
 
         <style jsx>{`
           ul {
@@ -42,6 +42,7 @@ const RightNav = ({ open }) => {
           li {
             padding: 15px 30px;
             margin: 0;
+            cursor: pointer;
           }
 
           /* .home-li {

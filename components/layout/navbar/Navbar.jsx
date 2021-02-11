@@ -44,7 +44,7 @@ const Navbar = () => {
           margin-left: 20px;
           background-color: rgba(255, 255, 255);
           border: 1px 0 solid white;
-          border-radius: 0 0 35% 35%;
+          border-radius: 0 35% 10% 35%;
         }
       `}</style>
     </header>
