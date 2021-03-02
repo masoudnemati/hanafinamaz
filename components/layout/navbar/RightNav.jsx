@@ -42,6 +42,7 @@ const RightNav = ({ open }) => {
           li {
             padding: 15px 30px;
             margin: 0;
+            font-size: 1.5rem;
             cursor: pointer;
           }
 
@@ -88,8 +89,12 @@ const RightNav = ({ open }) => {
               right: 0;
               height: 100vh;
               width: 65vw;
-              padding-top: 6rem;
+              padding-top: 75px;
               transition: transform 0.3s ease-in-out;
+            }
+
+            li {
+              font-size: 2rem;
             }
           }
         `}</style>

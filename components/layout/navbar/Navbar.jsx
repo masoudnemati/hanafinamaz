@@ -8,8 +8,8 @@ const Navbar = () => {
         <img
           src="/logo/allah-logo.png"
           alt="allah"
-          width="50px"
-          height="40px"
+          width="40px"
+          height="30px"
         />
       </div>
       <Burger />
@@ -32,19 +32,23 @@ const Navbar = () => {
           z-index: 10;
         }
 
-        .navbar-scroll {
-          color: black;
-          background-color: rgba(255, 255, 255, 0.94);
-          padding: 0 0;
-          height: 70px;
-        }
         .logo {
-          padding: 12px 5px 0px 5px;
+          padding: 9px 5px 0px 5px;
           margin-bottom: 15px;
+          margin-top: 15px;
+
           margin-left: 20px;
           background-color: rgba(255, 255, 255);
           border: 1px 0 solid white;
-          border-radius: 0 35% 10% 35%;
+          border-radius: 10% 35% 10% 35%;
+        }
+
+        .navbar-scroll {
+          box-sizing: content-box;
+          color: black;
+          background-color: rgba(255, 255, 255, 0.94);
+          margin-top: -5px;
+          height: 70px;
         }
       `}</style>
     </header>

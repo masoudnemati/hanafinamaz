@@ -13,10 +13,10 @@ const Burger = () => {
 
         <style jsx>{`
           .burger-main {
-            width: 2rem;
-            height: 2rem;
+            width: 50px;
+            height: 35px;
             position: fixed;
-            top: 22px;
+            top: 17px;
             right: 20px;
             z-index: 20;
             display: none;
@@ -24,25 +24,29 @@ const Burger = () => {
           }
 
           .burger {
-            width: 2rem;
-            height: 0.25rem;
+            box-sizing: content-box;
+
+            width: 40px;
             background-color: ${open ? "red" : "white"};
             border: 1px solid black;
             transform-origin: 1px;
             transition: all 0.3s linear;
+            border-radius: 3px;
           }
 
           .burger1 {
-            width: 2rem;
+            height: 4px;
             transform: ${open ? "rotate(45deg)" : "rotate(0)"};
           }
           .burger2 {
+            height: 4px;
+
             transform: ${open ? "translateX(100%)" : "translateX(0)"};
             opacity: ${open ? "0" : "1"};
-            width: 1.5rem;
           }
           .burger3 {
-            width: 2rem;
+            height: 4px;
+
             transform: ${open ? "rotate(-45deg)" : "rotate(0)"};
           }
 
