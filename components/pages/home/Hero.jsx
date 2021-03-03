@@ -4,12 +4,13 @@ const Hero = () => {
   return (
     <>
       <main className="hero-main">
-        <h1>آموزش نماز اهل سنت مذهب حنفی</h1>
-        <p>به زبان ترکمنی</p>
+        <h1>
+          آموزش نماز اهل سنت مذهب حنفی
+          <span className="turkmen"> به زبان ترکمنی </span>
+        </h1>
       </main>
       <style jsx>{`
         .hero-main {
-          height: 87vh;
           direction: rtl;
           padding-top: 100px;
           /* background-image: url("/images/home/hero-bg-man.jpeg"); */
@@ -24,6 +25,13 @@ const Hero = () => {
           padding: 20px;
           display: inline-block;
           color: black;
+
+          padding-bottom: 6px;
+        }
+
+        .turkmen {
+          font-size: 1.5rem;
+          font-style: italic;
         }
       `}</style>
     </>

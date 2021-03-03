@@ -1,6 +1,7 @@
 import Head from "next/head";
 // import Layout from "../components/layout/Layout";
 import Hero from "../components/pages/home/Hero";
+import Benefis from "../components/pages/home/Benefits";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       </Head>
       <main>
         <Hero />
+        <Benefis />
       </main>
     </>
   );
