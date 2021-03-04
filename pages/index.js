@@ -1,7 +1,8 @@
 import Head from "next/head";
 // import Layout from "../components/layout/Layout";
-import Hero from "../components/pages/home/Hero";
-import Benefis from "../components/pages/home/Benefits";
+import Hero from "../components/pages-components/home/Hero";
+import Benefis from "../components/pages-components/home/Benefits";
+import AhkamHome from "../components/pages-components/home/AhkamHome.jsx";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <main>
         <Hero />
         <Benefis />
+        <AhkamHome />
       </main>
     </>
   );

@@ -5,8 +5,7 @@ const Hero = () => {
     <>
       <main className="hero-main">
         <h1>
-          آموزش نماز اهل سنت مذهب حنفی
-          <span className="turkmen"> به زبان ترکمنی </span>
+          آموزش نماز اهل سنت مذهب حنفی <br />
         </h1>
       </main>
       <style jsx>{`
@@ -27,11 +26,6 @@ const Hero = () => {
           color: black;
 
           padding-bottom: 6px;
-        }
-
-        .turkmen {
-          font-size: 1.5rem;
-          font-style: italic;
         }
       `}</style>
     </>
