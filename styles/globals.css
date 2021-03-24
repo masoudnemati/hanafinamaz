@@ -33,12 +33,12 @@ html {
     font-size: 40%;
   }
 }
-@media only screen and (max-width: 220px) {
-  html {
-    font-size: 30%;
-  }
-}
 
 body {
   box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }

@@ -9,7 +9,7 @@ const RightNav = ({ open }) => {
             <a>صفحه اصلی</a>
           </li>
         </Link>
-        <Link href="/songs">
+        <Link href="/ahkam">
           <li className="songs-li">
             <a>احکام نماز</a>
           </li>

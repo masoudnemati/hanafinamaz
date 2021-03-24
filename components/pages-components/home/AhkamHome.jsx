@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const AhkamHome = () => {
   return (
@@ -25,6 +26,10 @@ const AhkamHome = () => {
             داشته باشد.
           </li>
         </ul>
+
+        <Link href="/ahkam">
+          <a>مشاهده بیشتر</a>
+        </Link>
       </section>
 
       <style jsx>{`
@@ -39,11 +44,24 @@ const AhkamHome = () => {
 
         ul {
           padding: 10px 40px;
+          margin-bottom: 10px;
         }
 
         li {
           font-size: 1.6rem;
           padding: 5px 0;
+        }
+
+        a {
+          font-size: 1.6rem;
+          padding: 10px 28px 10px 15px;
+          border-radius: 25px;
+          color: white;
+          background-image: url("/images/home/icons8-less-than-30.png");
+          background-repeat: no-repeat;
+          background-position: 107px center;
+          background-size: 20px;
+          background-color: black;
         }
       `}</style>
     </>
