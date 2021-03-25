@@ -54,14 +54,21 @@ const AhkamHome = () => {
 
         a {
           font-size: 1.6rem;
-          padding: 10px 28px 10px 15px;
+          padding: 1rem 2.8rem 1rem 1.5rem;
           border-radius: 25px;
           color: white;
           background-image: url("/images/home/icons8-less-than-30.png");
           background-repeat: no-repeat;
-          background-position: 107px center;
-          background-size: 20px;
+          background-position: 10.7rem center;
+          background-size: 2rem;
           background-color: black;
+        }
+
+        a:hover {
+          color: black;
+          font-weight: bold;
+          background-color: white;
+          border: 0.1rem solid black;
         }
       `}</style>
     </>

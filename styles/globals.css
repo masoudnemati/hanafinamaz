@@ -36,6 +36,7 @@ html {
 
 body {
   box-sizing: border-box;
+  text-align: justify;
 }
 
 a {

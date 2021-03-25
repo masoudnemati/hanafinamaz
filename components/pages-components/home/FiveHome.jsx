@@ -1,18 +1,21 @@
 import React from "react";
+import Link from "next/link";
 
 const FiveHome = () => {
   return (
     <>
       <section>
         <h3>نمازهای پنج‌گانه:</h3>
-        <p>نمازهای پنچ‌گانه بر هر مسلمان واجب است که هر روز باید خوانده شوند</p>
         <ol>
-          <li>نماز صبح</li>
-          <li>نماز ظهر</li>
-          <li>نماز عصر</li>
-          <li>نماز شب</li>
-          <li>نماز عشاء</li>
+          <li>۱. نماز صبح</li>
+          <li>۲.نماز ظهر</li>
+          <li>۳. نماز عصر</li>
+          <li>۴. نماز مغرب</li>
+          <li>۵. نماز عشاء</li>
         </ol>
+        <Link href="/daily-prays">
+          <a>آموزش نمازهای پنج‌گانه</a>
+        </Link>
       </section>
 
       <style jsx>{`
@@ -30,8 +33,9 @@ const FiveHome = () => {
         }
 
         ol {
-          padding: 10px 40px;
+          padding: 1rem 4rem;
           margin-bottom: 10px;
+          list-style: none;
         }
 
         li {
@@ -41,14 +45,21 @@ const FiveHome = () => {
 
         a {
           font-size: 1.6rem;
-          padding: 10px 28px 10px 15px;
+          padding: 1rem 2.8rem 1rem 1.5rem;
           border-radius: 25px;
           color: white;
           background-image: url("/images/home/icons8-less-than-30.png");
           background-repeat: no-repeat;
-          background-position: 107px center;
-          background-size: 20px;
+          background-position: 16.2rem center;
+          background-size: 2rem;
           background-color: black;
+        }
+
+        a:hover {
+          color: black;
+          font-weight: bold;
+          background-color: white;
+          border: 0.1rem solid black;
         }
       `}</style>
     </>

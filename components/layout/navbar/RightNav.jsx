@@ -9,12 +9,22 @@ const RightNav = ({ open }) => {
             <a>صفحه اصلی</a>
           </li>
         </Link>
-        <Link href="/ahkam">
+        <Link href="/islam">
           <li className="songs-li">
-            <a>احکام نماز</a>
+            <a>اسلام</a>
           </li>
         </Link>
-        <Link href="/videos">
+        <Link href="/namaz">
+          <li className="songs-li">
+            <a>نماز</a>
+          </li>
+        </Link>
+        <Link href="/fast">
+          <li className="songs-li">
+            <a>روزه</a>
+          </li>
+        </Link>
+        {/* <Link href="/videos">
           <li className="video-li">
             <a>وضو و غسل</a>
           </li>
@@ -27,6 +37,11 @@ const RightNav = ({ open }) => {
         <Link href="/contact-us">
           <li className="contact-us-li">
             <a>دیگر نمازها</a>
+          </li>
+        </Link> */}
+        <Link href="/quran">
+          <li className="contact-us-li">
+            <a>قرآن</a>
           </li>
         </Link>
 
