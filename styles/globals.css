@@ -1,45 +1,47 @@
-*,
-*::before,
-*::after {
-  margin: 0;
+html,
+body {
   padding: 0;
-  box-sizing: inherit;
-}
-
-/* 
-$bp-largest: 56.25em; // 900px
-$bp-large: 37.5em; // 600px
-$bp-medium: 28.125em; // 450px
-$bp-small: 22.5em; // 360px
-$bp-smallest: 17.5em; // 280px
-$bp-very-smallest: 13.75em; // 220px 
-*/
-
-html {
+  margin: 0;
   font-family: "Vazir", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-size: 62.5%; /* 16px(default browser font-size) %62.5 => 10px === 1rem */
-  scroll-behavior: smooth;
-  line-height: 1.6;
-}
-
-@media only screen and (max-width: 450px) {
-  html {
-    font-size: 55%;
-  }
-}
-@media only screen and (max-width: 280px) {
-  html {
-    font-size: 40%;
-  }
-}
-
-body {
-  box-sizing: border-box;
   text-align: justify;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  letter-spacing: 1px;
+  font-size: clamp(1.8rem, 2.5vw, 2.8rem);
+}
+
+h2 {
+  font-size: clamp(1.5rem, 2vw, 2.4rem);
+}
+
+h3 {
+  font-size: clamp(1.25rem, 1.5vw, 2rem);
+}
+
+h4 {
+  font-size: clamp(1.1rem, 1.2vw, 1.5rem);
+}
+
+h5 {
+  font-size: clamp(1.1rem, 1.2vw, 1.2rem);
+}
+
+p,
+li,
+td,
+th {
+  /* font-size: clamp(1rem, 2vw, 1.1rem); */
+  line-height: 1.5;
+  font-size: clamp(1rem, 1.4vw, 1.4rem);
 }

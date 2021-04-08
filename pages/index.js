@@ -14,9 +14,9 @@ export default function Home() {
       </Head>
       <main>
         <Hero />
-        <Benefis />
+        {/* <Benefis />
         <AhkamHome />
-        <FiveHome />
+        <FiveHome /> */}
       </main>
     </>
   );

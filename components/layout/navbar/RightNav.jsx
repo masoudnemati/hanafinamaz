@@ -9,14 +9,14 @@ const RightNav = ({ open }) => {
             <a>صفحه اصلی</a>
           </li>
         </Link>
-        <Link href="/islam">
-          <li className="songs-li">
-            <a>اسلام</a>
-          </li>
-        </Link>
         <Link href="/namaz">
           <li className="songs-li">
             <a>نماز</a>
+          </li>
+        </Link>
+        <Link href="/vozu">
+          <li className="songs-li">
+            <a>وضو و غسل</a>
           </li>
         </Link>
         <Link href="/fast">
@@ -24,23 +24,8 @@ const RightNav = ({ open }) => {
             <a>روزه</a>
           </li>
         </Link>
-        {/* <Link href="/videos">
-          <li className="video-li">
-            <a>وضو و غسل</a>
-          </li>
-        </Link>
-        <Link href="/about-us">
-          <li className="about-us-li">
-            <a>نمازهای پنج‌گانه</a>
-          </li>
-        </Link>
-        <Link href="/contact-us">
-          <li className="contact-us-li">
-            <a>دیگر نمازها</a>
-          </li>
-        </Link> */}
         <Link href="/quran">
-          <li className="contact-us-li">
+          <li className="songs-li">
             <a>قرآن</a>
           </li>
         </Link>
@@ -51,13 +36,12 @@ const RightNav = ({ open }) => {
             list-style: none;
             display: flex;
             flex-flow: row-reverse nowrap;
-            margin-top: 15px;
+            margin-top: 10px;
           }
 
           li {
             padding: 15px 30px;
             margin: 0;
-            font-size: 1.5rem;
             cursor: pointer;
           }
 
@@ -106,10 +90,6 @@ const RightNav = ({ open }) => {
               width: 65vw;
               padding-top: 75px;
               transition: transform 0.3s ease-in-out;
-            }
-
-            li {
-              font-size: 2rem;
             }
           }
         `}</style>
