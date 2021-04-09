@@ -16,16 +16,15 @@ const Burger = () => {
             width: 50px;
             height: 35px;
             position: fixed;
-            top: 17px;
-            right: 20px;
+            top: 0.9rem;
+            right: 4vw;
             z-index: 20;
             display: none;
-            margin-right: 10px;
+            margin-right: 0;
           }
 
           .burger {
             box-sizing: content-box;
-
             width: 40px;
             background-color: ${open ? "red" : "white"};
             border: 1px solid black;
@@ -40,13 +39,11 @@ const Burger = () => {
           }
           .burger2 {
             height: 4px;
-
             transform: ${open ? "translateX(100%)" : "translateX(0)"};
             opacity: ${open ? "0" : "1"};
           }
           .burger3 {
             height: 4px;
-
             transform: ${open ? "rotate(-45deg)" : "rotate(0)"};
           }
 

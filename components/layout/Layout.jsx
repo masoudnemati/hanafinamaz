@@ -1,12 +1,12 @@
 import Navbar from "./navbar/Navbar";
-// import Footer from "./Footer";
+import Footer from "./footer/Footer";
 
 function Layout({ children }) {
   return (
     <div>
       <Navbar />
       {children}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

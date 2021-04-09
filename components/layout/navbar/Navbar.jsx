@@ -36,7 +36,7 @@ const Navbar = () => {
           padding: 9px 5px 0px 5px;
           margin-bottom: 15px;
           margin-top: 15px;
-          margin-left: 20px;
+          margin-left: 5vw;
           background-color: rgba(255, 255, 255);
           border: 1px 0 solid white;
           border-radius: 10% 35% 10% 35%;

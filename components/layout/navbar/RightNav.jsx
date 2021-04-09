@@ -32,7 +32,7 @@ const RightNav = ({ open }) => {
 
         <style jsx>{`
           ul {
-            padding-right: 30px;
+            padding-right: 0;
             list-style: none;
             display: flex;
             flex-flow: row-reverse nowrap;
@@ -40,7 +40,8 @@ const RightNav = ({ open }) => {
           }
 
           li {
-            padding: 15px 30px;
+            padding-top: 1rem;
+            padding-right: 5vw;
             margin: 0;
             cursor: pointer;
           }
@@ -76,6 +77,10 @@ const RightNav = ({ open }) => {
           } */
 
           @media only screen and (max-width: 780px) {
+            ul {
+              padding-right: 5vw;
+            }
+
             .nav-ul {
               flex-flow: column;
               direction: rtl;
