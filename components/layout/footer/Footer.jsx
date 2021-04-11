@@ -12,6 +12,8 @@ const Footer = () => {
                 jennet<span className="ir-jennet">.ir</span>
               </h1>
             </Link>
+            <p className="des">آموزش اصول و احکام دین ویژه اهل سنت فقه حنفی</p>
+            <hr />
             <a
               href="https://atyal.ir/"
               target="_blank"
@@ -49,11 +51,29 @@ const Footer = () => {
             <ul>
               <li>
                 <a
-                  href="islamhouse.com/fa"
+                  href="http://islamhouse.com/fa"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   islamhouse.com
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://quran.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  quran.com
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://sunnah.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  sunnah.com
                 </a>
               </li>
               <li>
@@ -87,13 +107,18 @@ const Footer = () => {
         h1 {
           margin: 0;
           padding: 0;
-          padding-bottom: 25px;
           cursor: pointer;
           color: #91ff91;
         }
 
         .ir-jennet {
           color: #5fa15f;
+        }
+
+        .des {
+          padding: 0;
+          margin: 0;
+          padding-bottom: 20px;
         }
 
         .atyal span {
