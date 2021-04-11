@@ -17,7 +17,7 @@ const Burger = () => {
             height: 35px;
             position: fixed;
             top: 0.9rem;
-            right: 4vw;
+            right: 3.7vw;
             z-index: 20;
             display: none;
             margin-right: 0;
