@@ -1,14 +1,9 @@
 import React from "react";
-import Ghosl from "../components/pages-components/vozu/Ghosl";
-import Vozu from "../components/pages-components/vozu/Vozu";
 
-const vozu = () => {
+const quran = () => {
   return (
     <>
-      <main>
-        <Vozu />
-        <Ghosl />
-      </main>
+      <main></main>
 
       <style jsx>{`
         main {
@@ -22,4 +17,4 @@ const vozu = () => {
   );
 };
 
-export default vozu;
+export default quran;

@@ -34,7 +34,8 @@ const Ghosl = () => {
       </main>
 
       <style jsx>{`
-        p {
+        p,
+        li {
           line-height: 1.9;
         }
 

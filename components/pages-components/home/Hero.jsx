@@ -5,7 +5,8 @@ const Hero = () => {
     <>
       <main className="hero-main">
         <div className="h1">
-          <h1>آموزش اصول و ارکان دین ویژه اهل سنت فقه حنفی</h1>
+          <h1>آموزش اصول و ارکان دین</h1>
+          <h4>ویژه اهل سنت فقه حنفی</h4>
         </div>
         <h3>در ﺻﺤﻴﺤﻴﻦ از رﺳﻮل اﻛﺮم(ص) ﺛﺎﺑﺖ اﺳﺖ ﻛﻪ ﻓﺮﻣﻮدﻧﺪ:</h3>
         <div className="quote">
@@ -138,7 +139,7 @@ const Hero = () => {
             <span className="source">[سوره آل عمران - آیه ۹۷]‬</span>
           </p>
           <p>
-            « و براى خداوند حج خانه(کعبه) بر (عهده) مردم است [البته برای] كسى كه
+            «و براى خداوند حج خانه(کعبه) بر (عهده) مردم است [البته برای] كسى كه
             بتواند به سوى آن راه يابد و هر كه كفر ورزد (بداند که) یقینا خداوند
             از جهانيان بى ‏نياز است.»
           </p>
@@ -157,11 +158,19 @@ const Hero = () => {
         }
 
         h1 {
-          padding: 20px;
+          margin: 0;
+          padding: 20px 0 0 0;
           display: inline-block;
         }
 
-        p {
+        h4 {
+          padding: 0;
+          margin: 0;
+          letter-spacing: 1px;
+        }
+
+        p,
+        li {
           line-height: 1.9;
         }
 
@@ -170,6 +179,9 @@ const Hero = () => {
         }
 
         .arabic {
+          padding: 0;
+          padding-top: 10px;
+          margin: 0;
           font-family: "Amiri", serif;
           font-size: larger;
           line-height: 2.2;
@@ -189,7 +201,7 @@ const Hero = () => {
         .quote {
           background-color: #dcf4ff;
           border-right: 4px solid #1e7f9d;
-          padding: 10px;
+          padding: 0 10px 5px 0;
         }
 
         .source {

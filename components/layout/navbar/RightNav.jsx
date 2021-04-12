@@ -46,6 +46,10 @@ const RightNav = ({ open }) => {
             cursor: pointer;
           }
 
+          li:hover {
+            text-decoration: underline;
+          }
+
           /* .home-li {
             background-image: url("/icons/icons8-home-24.png");
             background-repeat: no-repeat;

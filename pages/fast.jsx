@@ -1,13 +1,11 @@
 import React from "react";
-import Ghosl from "../components/pages-components/vozu/Ghosl";
-import Vozu from "../components/pages-components/vozu/Vozu";
+import Fast from "../components/pages-components/fast/Fast";
 
-const vozu = () => {
+const fast = () => {
   return (
     <>
       <main>
-        <Vozu />
-        <Ghosl />
+        <Fast />
       </main>
 
       <style jsx>{`
@@ -22,4 +20,4 @@ const vozu = () => {
   );
 };
 
-export default vozu;
+export default fast;
