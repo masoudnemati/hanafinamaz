@@ -12,7 +12,7 @@ const Footer = () => {
                 jennet<span className="ir-jennet">.ir</span>
               </h1>
             </Link>
-            <p className="des">آموزش اصول و احکام دین ویژه اهل سنت فقه حنفی</p>
+            <p className="des">آموزش اصول و ارکان دین ویژه اهل سنت فقه حنفی</p>
             <hr />
             <a
               href="https://atyal.ir/"
