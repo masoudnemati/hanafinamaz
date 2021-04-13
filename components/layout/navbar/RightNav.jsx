@@ -44,6 +44,7 @@ const RightNav = ({ open }) => {
             padding-right: 5vw;
             margin: 0;
             cursor: pointer;
+            font-size: 1.1rem;
           }
 
           li:hover {
