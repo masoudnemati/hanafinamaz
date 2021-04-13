@@ -1,9 +1,12 @@
 import React from "react";
+import Quran from "../components/pages-components/quran/Quran";
 
 const quran = () => {
   return (
     <>
-      <main></main>
+      <main>
+        <Quran />
+      </main>
 
       <style jsx>{`
         main {

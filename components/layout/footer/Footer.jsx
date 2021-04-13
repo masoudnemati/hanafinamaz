@@ -121,9 +121,22 @@ const Footer = () => {
           padding-bottom: 20px;
         }
 
+        .atyal {
+          transition: all 0.5s linear;
+        }
+
+        .atyal:hover {
+          letter-spacing: 1px;
+          background-color: white;
+        }
+
         .atyal span {
           color: skyblue;
           font-weight: bold;
+        }
+
+        .atyal:hover span {
+          color: black;
         }
 
         .rights {
